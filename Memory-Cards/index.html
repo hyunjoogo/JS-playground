@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="style.css"/>
+	<title>Memory Cards</title>
+</head>
+<body>
+<div>
+	<div>
+		<h1>Memory Cards</h1>
+		<button>+Add New Card</button>
+	</div>
+	<div id="cards">
+		카드 들어올 자리
+	</div>
+	<div>
+		<button id="prev-btn"><-</button>
+		<button id="next-btn">-></button>
+	</div>
+</div>
+<button id="clear-cards">Clear Cards</button>
+
+<div>
+	<div>
+		<h1>Add New Card</h1>
+<!--		<button>X</button>-->
+	</div>
+	<div>
+		<div>
+			<label>Question</label>
+			<textarea placeholder="Enter Question" id="question" ></textarea>
+		</div>
+		<div>
+			<label>Answer</label>
+			<textarea placeholder="Enter Answer" id="answer"></textarea>
+		</div>
+		<button id="add-card">+Add Card</button>
+		<span id="error"></span>
+	</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
