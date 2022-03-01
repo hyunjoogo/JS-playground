@@ -47,6 +47,7 @@ const createCards = () => {
   card.addEventListener('click', () => card.classList.toggle('show-answer'));
   cardsDisplay.append(card);
   updateCurrentText();
+
 };
 
 const updateCurrentText = () => {
