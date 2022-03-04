@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  const words = ["쇼트트랙", "시대", "대중화", "중학교", "실수", "실화", "사필귀정", "무표정", "사면", "개나리", "기러기", "이유", "유학", "화장실"];
+  const KEYWORD = "김대중";
+  let sameLengthWords;
+  let Q1;
+
+  const findSameLength = () => {
+    sameLengthWords = words.filter(word => KEYWORD.length === word.length);
+    console.log(sameLengthWords);
+  };
+
+  // 글자수가 4글자면 1,2
+  // 글자수가 3글자면 1
+
+
+
+  const findMiddleLetter = (sameLengthWords) => {
+    // 키워드의 중간글자와 샘플의 첫글자가 똑같은 글자를 찾는다.
+    const chars = KEYWORD.split('');
+    const sameMiddleLetterWords = sameLengthWords.filter((word) => {
+      // 첫번째 글자
+      // 워드를 split 한다.
+      const wordChar = word.split('');
+      // chars[0]와 키워드의 중간글자가 같으면 true
+      return chars[1] === wordChar[0]
+    });
+    Q1 = sameMiddleLetterWords[0]
+    findLastLetter(Q1)
+  };
+
+  const findLastLetter = (Q1) => {
+    const sameLastLetterWords = words.filter(word => {
+
+      console.log(Q1.split('')[Q1.length -1]);
+      return Q1.split('')[Q1.length -1] === word.split('')[0]
+    });
+    console.log(sameLastLetterWords);
+  }
+
+
+  findSameLength();
+</script>
+</html>
