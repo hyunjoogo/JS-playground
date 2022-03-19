@@ -17,6 +17,13 @@ const currentPage = document.getElementById('current');
 let currentActiveCard = 0;
 
 
+
+function selected () {
+  let selectedObj = window.getSelection();
+  // let selected = selectedObj.getRangeAt(0).toString();
+  console.log(selectedObj);
+}
+
 // localstorage 자료 가지고 오는 함수
 const getCardsData = () => {
   const cards = JSON.parse(localStorage.getItem("cards"));
@@ -120,3 +127,5 @@ prevBtn.addEventListener('click', showPrevCard);
 showBtn.addEventListener('click', () => addContainer.classList.add('show'));
 // 본래화면 나오게 하기
 hideBtn.addEventListener('click', () => addContainer.classList.remove('show'));
+
+document.addEventListener('mouseup', selected)

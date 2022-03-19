@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aerial-matrix-344610",
+  "private_key_id": "65c9af231fb1d377068092962a0f0b668e39705d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfuIAFoOe0iSr5\nbpRH7n5F7OZlWy8J3in9pQyv+lf/MGVbSS079Y1DLWOIxg15V7X/hwj3hhgB8Ywz\n4Uxj/5nzXlk0fUP72+iXN2iostWnqVLfv1XguAqmzlwItgbd/XxhAb3xtwSithCm\nsFa7IHJH+SXLcSZ5SKzDn2CG03ZtH21Dy/3YY8ZtrtmPJ0EQz51JpIJo2QsINMuZ\nYqmCfhf+12QN43eqsem0cCiVKbKurEBRYBUOHd/wsXQkKd0Q6LJohDVhAxLDIAUT\nmd/JTb71NtY/NJ1qzuzroMngO9jkdZ6jBVu0FNGiIknLia94pogrRdbZBBhoSkED\nWTPty/rpAgMBAAECggEABAf0qt+y9V8gYj5N7aupjMjUDvMQZ/tPJpS3B3fQpyhw\n0xnbfh0eNnezlfDqB7naBlksFbjboSyYMqTWfXAcJzSmg6D/5CAv2brXOv8Uzh1Y\n3Hw1tfJt1LmrgDidigEDAHzvebAk2hlGUzoAXbWYY3QN8IQPrzrcCbhmJ+T3+FH1\nu2N2f+iHNUHMjQGXko0ayh66gmK9WJ9tS5MJGDC+K6jWen7bW4cKcU6uoA/YgLSG\n2M5b2w46/FrheL+kADaamjhmlQqRteY3FEPgt/RxWGOoobM1Mmg1mfOlrbgsWXmu\nHSDrMCaCBzPzpct7HkXDfe0wkY+WJpNGXAl3R1dUQQKBgQDNF2E0M8yVMyy5Ot6+\nkzVqrM/eiYtnQWWWr7gweoMuFvLpkbksmtnLJrF58PKj1+N1UjrwGiiIW8HLt9yT\nzNdhExJTjd3e9NvoM0xjci18wkO5JWK5s22odK53CV9KmNDIaGGqBhMnXk5V/2mW\nLP09i0I4wL1tjAbj4BvW+yvzKQKBgQDHXgYWOuVmGopOsBsLyk9OWmD+Am/QpKi+\n3CL5xE/NVUvC35SS2wFTX7nUh4WtxPzGiLz4auTie7WmynNcPDdRKuHH6M2Mn8mt\novYgKsI9T507KVW59irlWE7toeGiIOV1uc/qmXZeO4z8jIoHNmKuSdRSi+SPgVBK\nfAWxYVKBwQKBgDAUfxFB44BG0wFJr9Z1pFwxzzmYfTnjtvEwmLmkvwQbFS90nji6\nxLw/gfPYbMnEXuquMGsBducgu7oKjIeJyiRT2EQGSjFure8tt4bIyakp0b6h6Rcn\n3VlUoWH+rHxMfwW8ksjNS8g675pxmks+mM/IyemMJdx8q1DYxS4NDCyhAoGAe9qz\nmVfZb4cJaT0KcFas0hZfry3AXTQOCRQlPllw4jUdLeFMIbegqTUM8zWGHKAGESid\njQ6LRxBnl0iqRiC6lNg5D8JXAAe8ePyGPxGRPhmZqklRkoeVuokT75jj3Z7mLi7T\nNgFEgeIpAjQlA7oLsA75spZp1aUWRk+qEbpOUYECgYAKAf0pLBR3AeQJn6Jy8dsO\ned1g8XRFl4+KcyEW5os4gP/XCKHw+802RQXGHN/xZtupwfr7ZWVikcFni0rFhvLQ\n3hvzuGpNgqYuDva7L1M3UfuWXhyIxizfHBjITiw1P2XahfK9/RpAWAEJDv4ZuIFx\n5aWyy7Gqjs9uh7otMuOyvg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "translation-admin@aerial-matrix-344610.iam.gserviceaccount.com",
+  "client_id": "109322018015101548361",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/translation-admin%40aerial-matrix-344610.iam.gserviceaccount.com"
+}
