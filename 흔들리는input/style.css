@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #060b23;
+}
+
+
+.shakeInput {
+    outline : none;
+    border: 1px solid #10ffff;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.shakeInput:invalid {
+    animation: shake 300ms;
+    color: red;
+    border: 1px solid red;
+}
+
+
+@keyframes shake {
+    25% {
+        transform: translateX(2px);
+    }
+    50% {
+        transform: translateX(-2px);
+    }
+    75% {
+        transform: translateX(2px);
+    }
+}
